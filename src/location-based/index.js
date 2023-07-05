@@ -1,7 +1,5 @@
-import "./arjs-look-controls";
-import "./arjs-webcam-texture";
-import "./ArjsDeviceOrientationControls";
-import "./gps-camera";
-import "./gps-entity-place";
-import "./gps-projected-camera";
-import "./gps-projected-entity-place";
+import { LocationBased } from "./js/location-based.js";
+import { WebcamRenderer } from "./js/webcam-renderer.js";
+import { DeviceOrientationControls } from "./js/device-orientation-controls.js";
+
+export { LocationBased, WebcamRenderer, DeviceOrientationControls };
